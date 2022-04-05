@@ -21,16 +21,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'hp2478z62b238' );
+define( 'DB_NAME', 'fitbeatolddaf4' );
 
 /** MySQL database username */
-define( 'DB_USER', 'hp2478z62b238' );
+define( 'DB_USER', 'fitbeatolddaf4' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '357143401dccb3e3' );
+define( 'DB_PASSWORD', 'h4B52?N%MV*AW2sn8B' );
 
 /** MySQL hostname */
-define( 'DB_HOST', '10.3.64.4' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -78,7 +78,18 @@ $table_prefix = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define( 'WP_DEBUG', false );
+// Enable WP_DEBUG mode
+define( 'WP_DEBUG', true );
+
+// Enable Debug logging to the /wp-content/debug.log file
+define( 'WP_DEBUG_LOG', true );
+
+// Disable display of errors and warnings
+define( 'WP_DEBUG_DISPLAY', false );
+@ini_set( 'display_errors', 0 );
+
+// Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
+define( 'SCRIPT_DEBUG', true );
 
 // If we're behind a proxy server and using HTTPS, we need to alert Wordpress of that fact
 // see also http://codex.wordpress.org/Administration_Over_SSL#Using_a_Reverse_Proxy
