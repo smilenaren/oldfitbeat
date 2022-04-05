@@ -1,0 +1,356 @@
+.layout-container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+.main-wrapper
+.bg-white {
+  padding: 0 20px 80px;
+    background-color: #fff;
+    margin: 0 -15px -80px;
+    top: -25px;
+    position: relative;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/*---------header-----------*/
+.page-template-template-stepform{
+  background: #ffffff !important;
+}
+.site__header{
+    position: relative;
+    padding-bottom: 128px;
+    padding-top: 32px;
+}
+.site__branding .grid__item:first-child{
+  width: 100%;
+}
+.site__branding .flex-logo a{
+  max-width: 205px;
+  margin: 0 auto;
+}
+/*---------content---------*/
+.stepform__wrapper{
+  position: relative;
+  background: url(../img/stepform-bg.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: calc(100vh - 268px);
+}
+
+.stepform__wrapper:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.88);
+}
+.stepform__wrapper .stepform__wrap__main .mainform-wrap, .stepform__wrapper .stepform__wrap__main .mainform-step{
+      position: relative;
+      max-width: 550px;
+    background: #ffffff;
+    margin: 0 auto;
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 1);
+    padding: 50px;
+    z-index: 999;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-step.finalstage{
+  max-width: 805px !important;
+}
+.stepform__wrapper .stepform__wrap__main h2{
+  font-size: 42px;
+  font-weight: 900;
+  color: rgb(59, 59, 59);
+  text-align: center;
+  line-height: 1;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-wrap ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-wrap ul li{
+  width: 100%;
+  padding: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-wrap ul li label{
+  font-size: 14px;
+  color: #444444;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-wrap ul li label span{
+  color: #eb6a56;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-wrap ul li input{
+  border: 1px solid #e1e1e1;
+  background: transparent;
+  border-radius: 0 !important;
+  color: #666666;
+  height: 56px;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-wrap ul li #submit-btn,
+.stepform__wrapper .stepform__wrap__main .mainform-wrap ul li input[type=submit]{
+  width: 100%;
+  background: rgba(255, 98, 29, 1);
+  font-size: 26px;
+  color: #ffffff !important;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  height: 70px;
+  border: none;
+  padding: 20px 0;
+  box-shadow: 0px 0px 25px -5px rgba(0, 0, 0, 1);
+  transition: all 0.4s ease-in-out;
+  margin-top: 5px;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-wrap ul li #submit-btn:hover,
+.stepform__wrapper .stepform__wrap__main .mainform-wrap ul li input[type=submit]:hover{
+  background: rgba(255, 98, 29, 0.9);
+}
+div.wpcf7 .ajax-loader {
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+  bottom: -40px;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-step h3{
+   font-size: 22px;
+   font-weight: 700;
+   color: rgba(27, 27, 27, 1);
+   text-align: center;
+   margin-bottom: 50px;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-step .book-btn, .stepform__wrapper .stepform__wrap__main .mainform-step .click .btn-color{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    background: rgba(255, 98, 29, 1);
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    height: 70px;
+    padding: 15px 40px;
+    z-index: 1;
+    box-shadow: 0px 0px 25px -5px rgba(0, 0, 0, 1);
+    transition: all 0.4s ease-in-out;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-step p{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(27, 27, 27, 1);
+    margin: 1.2em 0;
+    text-align: center;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-step .click .btn-color{
+    background: #ffffff;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    text-transform: none;
+    border: 2px solid rgba(255, 98, 29, 1);
+    z-index: 1;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-step .book-btn:before,
+.stepform__wrapper .stepform__wrap__main .mainform-step .click .btn-color:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 100%;
+    background: #1b1b1b;
+    z-index: -1;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-step .book-btn:hover:before,
+.stepform__wrapper .stepform__wrap__main .mainform-step .click .btn-color:hover:before{
+   width: 100%;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-step .book-btn:hover,
+.stepform__wrapper .stepform__wrap__main .mainform-step .click .btn-color:hover{
+   color: #ffffff;
+}
+.stepform__wrapper .stepform__wrap__main .main-wrapper{
+  display: none;
+}
+.stepform__wrapper .stepform__wrap__main .main-wrapper.active{
+  display: block;
+}
+.notready-wrap {
+  display: none;
+}
+.stepform__wrapper .stepform__wrap__main .mainform-step.notready-wrap p{
+    line-height: 1.6em;
+    font-size: 16px;
+    color: #3e3e3e;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0 0 50px;
+}
+.stepform__wrapper .stepform__wrap__main .finalstage h4{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1b1b1b;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    text-align: center;
+}
+.stepform__wrapper .stepform__wrap__main .finalstage ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.stepform__wrapper .stepform__wrap__main .finalstage ul li{
+    display: table;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(27, 27, 27, 1);
+    padding-bottom: 3px;
+}
+.stepform__wrapper .stepform__wrap__main .finalstage ul li i{
+    display: table-cell;
+    color: #ff7336;
+    padding-right: 10px;
+}
+.stepform__wrapper .stepform__wrap__main .finalstage h5{
+    color: rgb(27, 27, 27);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    margin: 20px 0 5px;
+}
+.stepform__wrapper .stepform__wrap__main .finalstage h3{
+    font-size: 54px;
+    color: rgba(255, 98, 29, 1);
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.steps-msg-block{
+   max-width: 605px;
+   margin: 0 auto;
+   text-align: center;
+}
+.steps-msg-block.one h3{
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(27, 27, 27, 1);
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.steps-msg-block.one h4{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 98, 29, 1);
+  margin-top: 0.8em;
+  margin-bottom: 0;
+}
+.steps-msg-block.two, .steps-msg-block.three{
+  margin-top: 1.3%;
+}
+.steps-msg-block.two h2, .steps-msg-block.three h2{
+  font-size: 42px;
+  font-weight: 900;
+  color: rgb(59, 59, 59);
+  line-height: 0.5;
+  margin-bottom: 0.5em;
+}
+.steps-msg-block.final{
+  margin-top: 1.7%;
+}
+.steps-msg-block.final h2{
+  font-size: 28px;
+  font-weight: 900;
+  color: rgba(27, 27, 27, 1);
+  margin-bottom: 0.5em;
+}
+.steps-msg-block.final h3{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(27, 27, 27);
+}
+.main-wrapper {
+  position: relative;
+  top: -90px;
+  padding: 0 15px;
+}
+/*-----------MediaDevices--------------*/
+@media only screen and (max-width: 991px) {
+  .page-template-template-stepform #page{
+    padding-bottom: 0;
+  }
+  .main-wrapper {
+    position: relative;
+    top: -40px;
+  }
+  .site__header{
+    padding: 10px 22px 60px;
+  }
+  .flex-logo svg {
+    height: 90px;
+  }
+  .stepform__wrapper{
+    min-height: calc(100vh - 168px);
+  }
+  .layout-container{
+    padding: 0;
+  }
+  .stepform__wrapper .stepform__wrap__main .mainform-wrap, .stepform__wrapper .stepform__wrap__main .mainform-step{
+    top: 0;
+    padding: 30px 5%;
+  }
+  .stepform__wrapper .stepform__wrap__main h2{
+    font-size: 26px;
+  }
+  .steps-msg-block.one h4{
+    line-height: 1;
+  }
+  .stepform__wrapper{
+    padding-bottom: 50px;
+  }
+  .stepform__wrapper .stepform__wrap__main .mainform-step .click .btn-color, .stepform__wrapper .stepform__wrap__main .mainform-step .book-btn, .stepform__wrapper .stepform__wrap__main .mainform-step .click .btn-color{
+    height: inherit;
+  }
+  .steps-msg-block.two h2, .steps-msg-block.three h2, .stepform__wrapper .stepform__wrap__main .finalstage h4{
+    font-size: 32px;
+  }
+  .stepform__wrapper .stepform__wrap__main .finalstage h4{
+    line-height: 1;
+  }
+  .stepform__wrapper .stepform__wrap__main .finalstage h3{
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+  .stepform__wrapper .stepform__wrap__main .mainform-step.finalstage{
+    max-width: 700px !important;
+  }
+  .stepform__wrapper .stepform__wrap__main .mainform-step p {
+    margin: 8px 0 10px;
+  }
+  .main-wrapper li, .main-wrapper p {
+    line-height: 1.2;
+  }
+}

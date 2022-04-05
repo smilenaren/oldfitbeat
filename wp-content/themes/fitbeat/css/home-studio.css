@@ -1,0 +1,184 @@
+.home-studio .site__header {
+    padding: 7px 30px;
+    background-color: #404040;
+}
+.site-content {
+    padding-top: 0;
+}
+.custom-logo-link {
+    border: none;
+}
+.header-text-center,
+.logo-below-text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.logo-below-text {
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.flex-row {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    flex-wrap: wrap;
+}
+.flex-col {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    height: calc(100vh - 94px);
+}
+.center-logo {
+    padding: 10px 55px 10px 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col .wrap-link {
+    height: 100%;
+    display: flex;
+}
+.flex-col .wrap-link  img {
+    object-fit: cover;
+}
+.home-arrow-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 2;
+    line-height: 0.9;
+    text-align: center;
+    height: auto;
+}
+.home-arrow-btn:after,
+.home-arrow-btn:before {
+    top: initial;
+    bottom: 5px;
+}
+.logo-svg svg {
+    width: 200px;
+}
+.logo-text-svg {
+    border-left: 1px solid #e1e1e1;
+    padding: 18px 0 0 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.logo-text-svg svg {
+    height: 24px;
+}
+.show-mobile {
+    display: none;
+}
+ /*--------HomeStudio-Training---------*/
+ .section-home-studio .signup-link{
+    position: absolute;
+    top: 39px;
+    right: 30px;
+}
+.section-home-studio .signup-link a{
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+    text-transform: uppercase;
+    border-left: 2px solid #e1e1e1;
+    margin-left: 10px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+.section-home-studio .signup-link a:first-child{
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.section-home-studio .signup-link a i{
+	font-size: 12px;
+}
+@media screen and (max-width: 1023px) {
+    .header-text-ceter {
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .show-desktop {
+        display: none;
+    }
+    .show-mobile {
+        display: block;
+    }
+    .center-logo {
+        height: 80px;
+        padding: 8px;
+        order: 2;
+    }
+    .flex-row {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .flex-row .flex-col {
+        height: calc(50vh - 40px);
+        width: 100%;
+        order: 1;
+    }
+    .flex-row .flex-col:last-child {
+        order:3;
+    }
+    .home-studio .site__header {
+        padding: 20px 15px;
+    }
+
+    .custom-logo-link {
+    border-right: 1px solid #fff;
+    margin-right: 12px;
+
+    }
+    .header-text-ceter h1 {
+        margin: 0;
+        line-height: 1.1;
+        font-size: 24px;
+        text-align: left;
+        font-weight: 600;
+    }
+    .home-arrow-btn {
+        font-size: 58px;
+    }
+    .home-arrow-btn:after,
+    .home-arrow-btn:before {
+        height: 42px;
+        width: 30px;
+        bottom: 4px;
+    }
+    .home-arrow-btn:after {
+        right: -10px;
+    }
+    .section-home-studio .signup-link{
+        top: 10px;
+        right: 15px;
+        z-index: 999;
+    }
+    .section-home-studio .signup-link a {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .logo-svg svg {
+        width: 150px;
+    }
+    .logo-text-svg svg {
+        height: 22px;
+    }
+    .logo-below-text {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,690 @@
+.page-fitness-challenge header {
+  text-align: center;
+}
+
+.page-fitness-challenge header .offer-logo {
+  display: block;
+}
+
+.page-fitness-challenge header.entry-header h1.entry-title,
+.page-fitness-challenge header.entry-header h2.entry-title {
+  color: #ff621d;
+  font-size:42px;
+  line-height: 1.4;
+  letter-spacing: 0;
+  margin-top:0px;
+  letter-spacing: 0.5px;
+}
+
+.page-fitness-challenge header.entry-header .mid-line {
+  color: #ffffff;
+  display: block;
+  text-transform: uppercase;
+  font-size:29px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin-bottom: 6px;
+}
+
+.page-fitness-challenge header.entry-header .last-line {
+  display: flex;
+  justify-content: center;
+  margin-bottom:20px;
+  letter-spacing: 0;
+}
+
+.page-fitness-challenge header.entry-header .last-line span {
+  color: #ff621d;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+}
+
+.page-fitness-challenge header.entry-header .last-line img {
+  margin-right: 10px;
+  max-width: 140px;
+}
+
+.page-fitness-challenge .sub-header {
+  background-color: #ececec;
+  padding:15px 0;
+}
+
+.page-fitness-challenge .sub-header h2 {
+  color: #ff621d;
+  letter-spacing: 0.2px;
+  margin: 0;
+  font-size:32px;
+  text-align: center;
+}
+
+.page-fitness-challenge .block {
+  margin-bottom: 75px;
+}
+
+.page-fitness-challenge .block:last-child {
+  margin-bottom: 0;
+}
+
+.page-fitness-challenge .icon-block {
+  max-width: 716px;
+  margin: 0 auto 35px;
+}
+
+.page-fitness-challenge .page-container {
+  background-color: #ffffff;
+  padding: 20px 0 40px;
+  overflow: hidden;
+}
+
+.page-fitness-challenge .grid-box-container .flex-container {
+  /*margin: 0 -20px;*/
+  align-items: flex-start;
+}
+
+.page-fitness-challenge .grid-box-container .item {
+  text-align: center;
+  padding: 15px 20px;
+  width: 33.33%;
+}
+
+.page-fitness-challenge .grid-box-container .item img {
+  display: inline-block;
+  max-height:50px;
+}
+
+.page-fitness-challenge .grid-box-container .item h3 {
+  font-size: 17.5px;
+  max-width: 230px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 10px auto 2px;
+}
+
+.page-fitness-challenge .special-offer-block .special-offer-box {
+  max-width: 716px;
+  margin: 0 auto;
+  border: 1px solid #343537;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding:22px;
+  min-height: 200px;
+}
+
+.page-fitness-challenge .special-offer-block .special-offer-box .header {
+  margin-bottom:30px;
+}
+
+.page-fitness-challenge
+  .special-offer-block
+  .special-offer-box
+  .header
+  img.offer-logo {
+  width: 236px;
+  /*margin: 14px 0 0 5px;*/
+  margin: 14px 0 0 0;
+  max-width: 142px;
+}
+
+.page-fitness-challenge
+  .special-offer-block
+  .special-offer-box
+  .header
+  .content {
+  padding-left: 22px;
+  width: calc(100% - 142px);
+}
+
+.page-fitness-challenge
+  .special-offer-block
+  .special-offer-box
+  .header
+  .content
+  h2 {
+  font-size: 37px;
+  color: #ff621d;
+  font-weight: 800;
+  margin: 0 0 5px;
+  line-height: 1.2;
+}
+
+.page-fitness-challenge
+  .special-offer-block
+  .special-offer-box
+  .header
+  .content
+  h2
+  span {
+  color: #343537;
+  font-weight: 400;
+}
+
+.page-fitness-challenge .special-offer-block .special-offer-box .content h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #343537;
+  margin: 0;
+  width: 110px;
+  line-height: 1;
+}
+
+.page-fitness-challenge .special-offer-block .special-offer-box .content ul {
+  margin: 0;
+  padding: 0;
+  width: calc(50% - 60px);
+  list-style: none;
+}
+
+.page-fitness-challenge .special-offer-block .special-offer-box .content ul li {
+  font-size: 17.5px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  padding-left: 50px;
+  position: relative;
+}
+
+.page-fitness-challenge
+  .special-offer-block
+  .special-offer-box
+  .content
+  ul
+  li:before {
+  position: absolute;
+  left: 20px;
+  top: 6px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 11px solid #343537;
+  content: "";
+}
+
+.page-fitness-challenge .special-offer-block .content .flex-container {
+  align-items: flex-start;
+}
+
+.page-fitness-challenge .special-offer-block .content .flex-container.flex-end {
+  align-items: flex-end;
+}
+
+.page-fitness-challenge .special-offer-block .offer {
+  font-size: 55px;
+  color: #ff621d;
+  line-height: 0.9;
+  font-weight: 800;
+  margin-right:37px;
+}
+
+.thin-font {
+  font-weight: 600;
+}
+
+.page-fitness-challenge .special-offer-block .offer-content {
+  flex: 1;
+}
+
+.page-fitness-challenge .special-offer-block .offer-content,
+.page-fitness-challenge .special-offer-block .offer-content p {
+  font-size: 17.5px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.page-fitness-challenge .special-offer-block .offer-content h4 {
+  font-size: 23px;
+  line-height: 0.9;
+  color: #ff621d;
+  border-top: 1px solid #ff621d;
+  margin: 6px 0 0;
+  padding-top: 9px;
+}
+
+.flex-container.flex-end {
+  align-item: flex-end;
+}
+
+.btn.btn--big {
+  font-size: 26px;
+  line-height: 1.8;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 0;
+}
+
+/* START corporate page -> share holder */
+
+.corporate__share--container {
+  background: #ececec;
+  padding: 40px 0 30px;
+}
+
+.corporate__share--container .layout__container {
+  max-width: 1522px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.register-interest h2,
+.corporate__share--cnt h2,
+.corporate__footer--adtext h2 {
+  text-transform: uppercase;
+  font-size:32px;
+  font-weight: 400;
+  color: #343537;
+}
+
+.register-interest h2 strong,
+.corporate__share--cnt h2 strong,
+.corporate__footer--adtext h2 strong {
+  color: #ff621d;
+}
+
+.register-interest {
+  margin: 0 0 25px 0;
+}
+
+.register-interest h2 {
+  margin: 0 30px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.register-interest h2 strong {
+}
+
+.register-interest .btn--primary {
+  vertical-align: middle;
+  font-size: 26px;
+}
+.register-interest .btn--primary:hover {
+  color: #fff;
+}
+
+.corporate__share--cnt h2 {
+  margin: 0 0 22px 0;
+}
+
+.corporate__share--btns {
+  list-style: none;
+  margin: 0;
+  padding: 0 20% 0 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.corporate__share--btns li {
+  width: 186px;
+  /*width: 25%;*/
+  float: left;
+  padding: 0 18px 18px 0;
+  position: relative;
+}
+
+.fb-share-button {
+  position: absolute !important;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.corporate__share--btns li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  border-radius: 4px;
+  padding: 16px 0px 0;
+  height: 70px;
+  width: 100%;
+  background: #343537;
+}
+
+.corporate__share--btns li a i,
+.corporate__share--btns li a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.corporate__share--btns li a svg {
+  fill: #ff621d;
+  height: 30px;
+}
+.corporate__share--btns li a:hover svg {
+  fill: #fff;
+}
+.corporate__share--btns li a:hover span {
+  color: #ddd;
+}
+.corporate__share--btns li a i {
+  width: 31.45%;
+  text-align: center;
+}
+
+.corporate__share--btns li .fbs i svg {
+  height: 32px;
+}
+
+.corporate__share--btns li .lin i svg {
+  height: 32px;
+}
+
+.corporate__share--btns li .ins i svg {
+  height: 34px;
+}
+
+.corporate__share--btns li .wapps i svg {
+  height: 34px;
+}
+
+.corporate__share--btns li a span {
+  width: 66%;
+  padding: 0;
+  margin: 0px;
+  font-size:16px;
+  line-height: 1.16;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/* media queries -> share container  */
+
+/* end media queries -> share container */
+
+/* END corporate page -> share container */
+
+/* START corporate page -> footer holder */
+
+.corporate__footer {
+  background: #000;
+  display: inline-block;
+  width: 100%;
+  padding: 40px 0 70px;
+  position: relative;
+}
+
+.corporate__footer .layout__container {
+  max-width: 1522px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.corporate__footer .layout__container .flex-container {
+  align-items: inherit;
+}
+
+.corporate__footer--col-item {
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+
+.corporate__footer--adtext {
+  padding: 70px 0 0;
+}
+
+.corporate__footer--adtext h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 0.95;
+  display: block;
+  margin: 0 0 20px;
+}
+
+.corporate__footer--adtext h2 span {
+  font-weight: 300;
+}
+
+.corporate__footer--adtext address {
+  color: #fff;
+  font-style: inherit;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.corporate__footer--adtext address svg {
+  margin-right:5px;
+  max-width: 18px;
+}
+
+.corporate__testimonials {
+  text-align: center;
+  line-height: 1.4;
+  max-width: 345px;
+  margin:0 auto;
+}
+
+.corporate__testimonials figure {
+  border-radius: 50%;
+  overflow: hidden;
+  height:90px;
+  width: 90px;
+  display: inline-block;
+  margin-bottom:20px;
+  margin-top:0;
+}
+
+.corporate__testimonials p {
+  color: #fff;
+  font-size:20px;
+  line-height: 25px;
+  font-weight: 400;
+  margin: 0 0 14px 0;
+}
+
+.corporate__testimonials span {
+  color: #ff621d;
+  font-size: 20px;
+}
+
+.corporate__testimonials span + p {
+  margin: 0px;
+}
+
+.corporate__grp-photo {
+  position: absolute;
+  right: 0;
+  bottom: -64px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* media queries -> footer holder  */
+
+
+@media (max-width: 1199px) {
+  .page-fitness-challenge header.entry-header h1.entry-title,
+  .page-fitness-challenge header.entry-header h2.entry-title {
+    font-size:39px;
+    line-height: 1;
+  }
+  .page-fitness-challenge header.entry-header .last-line span {
+    font-size: 27px;
+    line-height: 1;
+  }
+  .page-fitness-challenge header.entry-header .mid-line {
+    font-size: 22px;
+  }
+  .page-fitness-challenge header.entry-header .last-line {
+    text-align: left;
+    align-items: center;
+  }
+  .page-fitness-challenge .sub-header h2 {
+    line-height: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .corporate__footer{padding:30px 0 0px; text-align: center;}
+  .corporate__footer--adtext{padding:0;}
+  .register-interest h2,
+  .corporate__share--cnt h2,
+  .corporate__footer--adtext h2 {
+    font-size: 28px;
+    line-height: 30px;
+    width:100%;
+    margin-right: 0;
+  }
+  .register-interest{margin-bottom:25px;}
+  .register-interest .btn--primary{  margin-top:20px;}
+  .corporate__share--btns li {
+    width: 33.33%;
+    padding: 2px;
+  }
+  .corporate__footer--col-item {
+    width: 100%;
+    float: none;
+    padding: 0px 0 60px;
+  }
+  .corporate__testimonials{
+    max-width: 300px;
+    margin:0 auto;
+  }
+  .corporate__testimonials figure{margin-bottom: 25px; margin-top:0;}
+  .corporate__grp-photo-holder {
+    height: auto !important;
+    display:none;
+  }
+  .corporate__grp-photo {
+    position: static;
+    max-width: 100%;
+    width:100%;
+    text-align: center;
+  }
+  .page-fitness-challenge header.entry-header .last-line {
+    flex-direction: column;
+    text-align: center;
+  }
+  .page-fitness-challenge header.entry-header .last-line > div {
+    overflow: hidden;
+  }
+  .page-fitness-challenge header.entry-header .last-line > div img {
+    width: 101%;
+    max-width: 101%;
+  }
+  .page-fitness-challenge header.entry-header .last-line{margin-bottom: 40px;}
+  .page-fitness-challenge .sub-header h2{font-size:28px;}
+  .page-fitness-challenge .special-offer-block .special-offer-box .header .content h2{font-size:37px; margin-bottom:20px;}
+  .page-fitness-challenge .special-offer-block .offer{font-size:59px;}
+  .page-fitness-challenge .special-offer-block .special-offer-box .content h3{font-size:20px;}
+  .page-fitness-challenge .special-offer-block .special-offer-box .content ul li{font-size:16px;}
+  .page-fitness-challenge .special-offer-block .special-offer-box .content ul li:before{border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 13px solid #343537;}
+
+}
+
+@media (max-width: 800px) and (min-width: 650px){
+  .layout__container{padding:0 5%;}
+}
+
+@media (max-width: 950px) {
+    .page-fitness-challenge .grid-box-container .item{width:50%;}
+    .page-fitness-challenge .grid-box-container .item h3{font-size:16px;}
+
+    .page-fitness-challenge .page-container{padding:30px 0 30px;}
+    .corporate__share--container{padding:40px 0 30px;}
+    .page-fitness-challenge .special-offer-block .special-offer-box{padding:20px;}
+    .page-fitness-challenge .special-offer-block .special-offer-box .header img.offer-logo{margin:0 auto; max-width: 142px;}
+    .page-fitness-challenge .special-offer-block .special-offer-box .header .content{padding-left:0; width:100%; text-align:center; margin-top:15px;}
+    .page-fitness-challenge .special-offer-block .special-offer-box .content h3{width:100%; margin-bottom: 20px;}
+    .page-fitness-challenge .special-offer-block .special-offer-box .content ul{width:100%;}
+    .page-fitness-challenge .special-offer-block .special-offer-box .content ul li{padding-left: 50px;}
+    .page-fitness-challenge .special-offer-block .special-offer-box .content ul li:before{left:15px;}
+}
+@media (max-width: 767px) {
+  .register-interest h2,
+  .corporate__share--cnt h2,
+  .corporate__footer--adtext h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .page-fitness-challenge header.entry-header .mid-line {
+    margin-top: 12px;
+  }
+  .page-fitness-challenge .special-offer-block .special-offer-box .header .content h2{
+    font-size: 33px;
+    line-height: 1;
+  }
+  .page-fitness-challenge .special-offer-block .offer{
+    font-size: 50px;
+  }
+  .page-fitness-challenge .special-offer-block .offer-content p {
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .page-fitness-challenge .special-offer-block .offer-content h4 {
+    font-size: 20px;
+  }
+  .page-fitness-challenge .special-offer-block .special-offer-box .header {
+    margin-bottom: 40px;
+  }
+  .page-fitness-challenge .special-offer-block .special-offer-box .content ul li {
+    padding-left: 30px;
+  }
+  .page-fitness-challenge .special-offer-block .special-offer-box .content ul li:before {
+    left: 0;
+  }
+  .corporate__share--btns {
+    padding: 0;
+  }
+  .corporate__share--btns li {
+    width: 50%;
+    padding: 2px;
+  }
+  .corporate__footer--col-item {
+    width: 100%;
+    float: none;
+    padding: 0px 0 60px;
+  }
+  .corporate__grp-photo-holder {
+    height: auto !important;
+  }
+  .corporate__grp-photo {
+    position: static;
+    max-width: 100%;
+  }
+  .page-fitness-challenge .special-offer-block .offer{width:100%; margin-right: 0; margin-bottom: 20px;}
+  .btn.btn--big {
+    height: auto;
+    font-size: 22px;
+    padding: 15px;
+    line-height: 1;
+  }
+  .btn.btn--big svg {
+    width: 16px;
+    height: 17px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .page-fitness-challenge .grid-box-container .item{width:100%;}
+  .page-fitness-challenge .grid-box-container .item h3{font-size:14px;}
+  .corporate__share--btns li a{
+    padding: 15px 0px 0;
+    height: 78px;
+  }
+  .corporate__share--btns li a span {
+    font-size: 16px;
+  }
+  .corporate__share--btns li a i {
+    width: 30%;
+  }
+  .corporate__share--btns li a i svg {
+    max-width: 35px;
+  }
+}
+
+/* end media queries -> footer holder */
+
+/* END corporate page -> footer holder */

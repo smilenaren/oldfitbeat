@@ -1,0 +1,7 @@
+
+# HP-START
+# Added by HardyPress to prevent search engines scanning admin site.
+# This block will be removed on the live site.
+User-agent: *
+Disallow: /
+# HP-END
